@@ -2,6 +2,7 @@
 
 * [入门Restful Web](restfulweb/README.md)
 * [入门定时任务/计划任务Scheduling-tasks](sched-task/README.md)
+* [构建使用RESTful Web服务/RestTemplate/REST客户端](rest-template/README.md)
 
 ## About the author
 

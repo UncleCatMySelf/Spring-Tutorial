@@ -89,18 +89,6 @@ public class RestfulWebApplication {
 
 该main()方法使用Spring Boot的SpringApplication.run()方法来启动应用程序。您是否注意到没有一行XML？也没有web.xml文件。此Web应用程序是100％纯Java，您无需处理配置任何管道或基础结构。
 
-## 构建可执行的JAR
-
-您可以使用Gradle或Maven从命令行运行该应用程序。或者，您可以构建一个包含所有必需依赖项，类和资源的可执行JAR文件，并运行该文件。这使得在整个开发生命周期中，跨不同环境等将服务作为应用程序发布，版本和部署变得容易。
-
-如果您使用的是Gradle，则可以使用运行该应用程序./gradlew bootRun。或者您可以使用构建JAR文件./gradlew build。然后你可以运行JAR文件：
-
-> java -jar build / libs / gs-rest-service-0.1.0.jar
-
-如果您使用的是Maven，则可以使用该应用程序运行该应用程序./mvnw spring-boot:run。或者您可以使用构建JAR文件./mvnw clean package。然后你可以运行JAR文件：
-
-> java -jar target / gs-rest-service-0.1.0.jar
-
 ## 测试服务
 
 现在该服务已启动，请访问http：// localhost：8080 / greeting，其中显示：

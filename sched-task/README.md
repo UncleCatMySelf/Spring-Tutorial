@@ -51,20 +51,6 @@ public class SchedTaskApplication {
 
 @EnableScheduling确保创建后台任务执行程序。没有它，没有任何安排。
 
-## 构建jar
-
-您可以使用Gradle或Maven从命令行运行该应用程序。或者，您可以构建一个包含所有必需依赖项，类和资源的可执行JAR文件，并运行该文件。这使得在整个开发生命周期中，跨不同环境等将服务作为应用程序发布，版本和部署变得容易。
-
-如果您使用的是Gradle，则可以使用运行该应用程序./gradlew bootRun。或者您可以使用构建JAR文件./gradlew build。然后你可以运行JAR文件：
-
-> java -jar build / libs / gs-scheduling-tasks-0.1.0.jar
-
-如果您使用的是Maven，则可以使用该应用程序运行该应用程序./mvnw spring-boot:run。或者您可以使用构建JAR文件./mvnw clean package。然后你可以运行JAR文件：
-
-> java -jar target / gs-scheduling-tasks-0.1.0.jar
-
-> 上面的过程将创建一个可运行的JAR。您也可以选择构建经典WAR文件。
-
 显示日志输出，您可以从日志中看到它在后台线程上。您应该每隔5秒钟看到计划任务：
 
 ```
