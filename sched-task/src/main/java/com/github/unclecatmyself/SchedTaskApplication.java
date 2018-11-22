@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestfulWebApplication {
+public class SchedTaskApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestfulWebApplication.class, args);
+		SpringApplication.run(SchedTaskApplication.class, args);
 	}
 }
