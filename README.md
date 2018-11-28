@@ -12,6 +12,7 @@
 * [构建使用RESTful Web服务/RestTemplate/REST客户端](rest-template/README.md)
 * [使用Spring开发一个简易的JDBC客户端/h2/JdbcTemplate](jdbc-spring/README.md)
 * [SpringBoot上传多文件并提供下载](upload-file/README.md)
+* [使用Spring Security LDAP模块保护应用程序](ldap/README.md)
 
 ## About the author
 
