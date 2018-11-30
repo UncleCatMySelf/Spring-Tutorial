@@ -17,14 +17,14 @@ public class LongTimeTask {
     @Async
     public void execute(DeferredResult<String> deferred){
         log.info(Thread.currentThread().getName() + "进入 taskService 的 execute方法");
-        //try {
+        try {
             //模拟长时间任务调度，睡眠2s
-            //TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(2);
             //2s后给deferred发送成功消息，告诉deferred，处理结束，返回给客户端
             deferred.setResult("world");
-//        }catch (InterruptedException e){
-//            e.printStackTrace();
-//        }
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 
 }

@@ -2,7 +2,6 @@ package com.github.unclecatmyself.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.lang.Nullable;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.AsyncHandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
