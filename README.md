@@ -16,6 +16,7 @@
 * [使用Spring Boot Actuator构建应用程序](actuator/README.md)
 * [Spring MVC 表单提交验证](form/README.md)
 * [使用Redis进行消息传递](redis/README.md)
+* [使用RabbitMQ进行消息传递](rabbitmq/README.md)
 
 ## About the author
 
